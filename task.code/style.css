@@ -1,0 +1,198 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    font-family: "Roboto", sans-serif;
+    font-family: "Wix Madefor Display", sans-serif;
+  }
+  .container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+    background-color: white;
+    box-shadow: 0 2px 18px 0 rgba(129, 162, 182, 0.2);
+  }
+  
+  .container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+    background-color: white;
+    box-shadow: 0 2px 18px 0 rgba(129, 162, 182, 0.2);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0px 50px;
+    height: 75px;
+    z-index: 999;
+  }
+  
+  .navbar-left {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 40vw;
+    height: 25px;
+  }
+  
+  .wix-icon {
+    height: 100%;
+  }
+  
+  .wix-icon  img {
+   width: 70px;
+   height: 70px;
+   margin-top: -22px;
+   margin-right:-10px;
+
+  }
+  
+  .navbar-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-left: 100px;
+  }
+  .desktop-btn {
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    font-weight: 100;
+  }
+  .desktop-btn:hover{
+    color: rgb(91, 168, 249);
+    transition: 0.3s;
+  }
+  .mobile-btn {
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+  }
+  .mobile-btn:hover{
+    color: rgb(91, 168, 249);
+    transition: 0.3s;
+  }
+  .nav-hr {
+    height: 100%;
+    background-color: rgb(189, 189, 189);
+  }
+  .navbar-right {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    column-gap: 50px;
+    margin-left: 50px;
+    white-space: nowrap;
+  }
+  .navbar-right p{
+    font-size: 17px;
+    margin-left: 1px;
+  }
+  .edit-btn {
+    text-decoration: none;
+    color: white;
+    background-color: #136dfc;
+    border-radius: 25px;
+    padding: 10px 40px;
+    margin-left: 20px;
+    opacity: 1;
+    transition: 0.4s ease-in;
+    font-size: 17px;
+  }
+  .edit-btn:hover{
+    opacity: 0.8;
+  }
+  .reading-btn {
+    color: black;
+    margin-left: 50px;
+  }
+  .reading-btn:hover{
+    color: rgb(91, 168, 249);
+    transition: 0.3s;
+  }
+  .main-container{
+    box-shadow: 1px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100vw;
+    height: 70px;
+    padding: 0px 50px;
+    position: fixed;
+    top: 75px;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+    background-color: #fff;
+    transition: border-bottom 0.3s ease;
+  }
+  .bizbud-nav span{
+    color: #1a1a4f;
+    font-size: 25px;
+    font-weight: 600;
+  }
+  .navbar ul{
+    display: flex;
+    list-style-type: none;
+    gap: 30px;
+    font-size: 17px;
+  }
+
+  .navbar a {
+    text-decoration: none;
+    color: #16163f;
+  } 
+ .call-btn{
+    color: white;
+    background-color: #9e3ffc;
+    border-radius: 25px;
+    padding: 15px 55px;
+    border: none;
+    font-size: 18px;
+    opacity: 1;
+    transition: 0.5s ;
+    cursor: pointer;
+ }
+ .call-btn:hover{
+    background-color:#16163f ;
+ }
+
+
+ .main-container-scrolled {
+    border-bottom: 1px solid black;
+  }
+  .section1{
+    background: url(./homepag.jpeg) no-repeat;
+    background-size: 100% ;
+    width: 100%;
+    height: 650px;
+
+}
+.section1 > h1{
+    font-size: 100px;
+    width: 800px;
+    margin-top: 150px;
+    margin-left: 100px;
+}
+.section1 >p{
+    font-size: 25px;
+    margin-left: 100px;
+    width: 450px;
+    color: rgb(104, 95, 109);
+    line-height:40px;
+}
+.learnBtn{
+    margin-top: 40px;
+    margin-left: 100px;
+} 
+ 
